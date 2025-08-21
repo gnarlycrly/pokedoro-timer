@@ -1,0 +1,144 @@
+@font-face {
+  font-family: 'PressStart2P';
+  src: url('./assets/PressStart2P-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PokemonClassic';
+  src: url('./assets/Pokemon Classic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: 'PressStart2P', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html, body, #root { height: 100%; margin: 0; overflow:hidden;}
+.home-container {
+  width: 100%;
+  height: 100%;
+  background-image: url('./assets/pokebackground.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;  
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: auto;
+  padding-top: 170px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.encouragement-text {
+  font-family: 'PokemonClassic', sans-serif;
+  font-size: 0.9rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+  animation: fadeIn 1s ease-in-out;
+  transition: opacity 0.8s ease;
+
+}
+
+.encouragement-text.hidden {
+  opacity: 0;
+}
+
+.pokebackground {
+  background-image: url('./assets/pokebackground.png');
+}
+
+.home-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.image-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.image-button img {
+  width: 100px;
+}
+
+.home-timer {
+  margin:0;
+  font-size: 55px;
+  line-height: 1;
+  color: #FECC02;
+  -webkit-text-stroke: 1px #325EA3;
+}
+
+.gif-image {
+  height:220px;
+  margin-left: 150px;
+  margin-top:35px;
+  margin-bottom:-15px;
+}
+
+.home-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.home-button img {
+  width: 60px;
+}
+
+.start-button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.start-button img{
+  width: 43px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-button img {
+  width: 24px;
+  height: 24px;
+}
+
+.dialogue-wrap {
+  position: relative;
+  width: 300px;
+  margin: 8px auto 0;      /* center the box */
+}
+
+.dialogue-box {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.dialogue-wrap .encouragement-text {
+  position: absolute;
+  inset: 0;                /* fill the box */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 25px;      /* keep text inside the frame */
+  margin: 0;
+  text-align: center;
+  z-index: 1;              /* over the image */
+}
