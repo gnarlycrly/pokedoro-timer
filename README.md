@@ -1,3 +1,34 @@
+# ⏳ Pokédoro Timer
+
+<img src="./POKEDORO-HOME" alt="App Screenshot" width="600"/>
+
+**Pokédoro Timer** is a full-stack productivity app that gamifies the Pomodoro technique with a Pokémon-inspired design.  
+Built with **Electron + React + Node.js**, it runs as a desktop app and stores session history in a database.  
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React, CSS, custom retro fonts & pixel graphics  
+- **Backend:** Node.js (WIP)
+- **Database:** PostgreSQL (recommended) (WIP) 
+- **Other:** Electron Builder (cross-platform desktop builds)  
+
+---
+
+## 🚀 Features
+
+- ⏱ **Pomodoro Timer** – Work/break cycles with customizable durations  
+- 🎮 **Pokémon Theme** – Retro-styled UI inspired by classic games  
+- 🔔 **Desktop Notifications** – Alerts when a session ends  
+- 💾 **Persistent Storage** – Track completed sessions and streaks in a database  
+- 🖥 **Cross-Platform** – Runs natively on Windows, macOS, and Linux via Electron  
+
+---
+git clone https://github.com/your-username/pokedoro-timer.git
+cd pokedoro-timer
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
