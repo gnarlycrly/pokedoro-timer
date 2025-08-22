@@ -1,6 +1,6 @@
 # ⏳ Pokédoro Timer
 
-<img src="./POKEDORO-HOME" alt="App Screenshot" width="600"/>
+<img src="./pokedoro-home.png" alt="App Screenshot" width="600"/>
 
 **Pokédoro Timer** is a full-stack productivity app that gamifies the Pomodoro technique with a Pokémon-inspired design.  
 Built with **Electron + React + Node.js**, it runs as a desktop app and stores session history in a database.  
