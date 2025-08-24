@@ -3,7 +3,7 @@
 <img src="./pokedoro-home.png" alt="App Screenshot" width="600"/>
 
 **Pokédoro Timer** is a full-stack productivity app that gamifies the Pomodoro technique with a Pokémon-inspired design.  
-Built with **Electron + React + Node.js**, it runs as a desktop app and stores session history in a database.  
+Built with **Electron + React + Node.js**, it runs as a desktop app and stores session history in a database (WIP).  
 
 ---
 
@@ -25,7 +25,7 @@ Built with **Electron + React + Node.js**, it runs as a desktop app and stores s
 - 🖥 **Cross-Platform** – Runs natively on Windows, macOS, and Linux via Electron  
 
 ---
-git clone https://github.com/your-username/pokedoro-timer.git
+git clone https://github.com/gnarlycrly/pokedoro-timer.git
 cd pokedoro-timer
 
 
